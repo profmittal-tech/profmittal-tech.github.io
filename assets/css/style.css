@@ -78,6 +78,9 @@ h3 { color: var(--navy); font-size: 1.12rem; margin: 0 0 8px; }
 .grid { display: grid; gap: 18px; }
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); }
+.grid.fixed-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 700px) { .grid.fixed-2 { grid-template-columns: 1fr; } }
 
 .card {
   background: #fff; border: 1px solid var(--blue-light); border-radius: 8px;
