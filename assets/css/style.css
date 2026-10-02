@@ -128,6 +128,9 @@ ul.refs a { word-break: break-word; }
   border-radius: 4px; box-shadow: 0 2px 8px rgba(21,67,96,.18);
 }
 .book-card h3 { margin-top: 0; }
+.book-card .sub { color: var(--muted); margin-top: 0; }
+.book-card.feature { align-items: center; padding: 22px; }
+.book-card.feature img { width: 132px; }
 @media (max-width: 560px) { .book-card { flex-direction: column; } .book-card img { width: 110px; } }
 
 /* ---------- Stats ---------- */
