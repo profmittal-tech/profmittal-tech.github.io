@@ -9,8 +9,8 @@ Published at <https://profmittal-tech.github.io/>.
 index.html                      ← home: profile, invitations, highlights, contact
 publications.html               ← selected books, articles and chapters
 collaborate.html                ← invitation for research collaboration
-csr-consultancy.html            ← CSR project consultancy + past projects
-statistical-consultancy.html    ← statistical consultancy services
+csr-consultancy.html            ← CSR + government project consultancy, incl. statistical support
+training-outreach.html          ← record of invited lectures, FDPs, editorial roles
 assets/css/style.css            ← shared styles (blue theme)
 assets/img/prabhat-mittal.jpg   ← portrait (same photo as the call-for-chapters site)
 assets/img/community-engagement-book-cover.jpg
