@@ -12,8 +12,9 @@ collaborate.html                ← invitation for research collaboration
 csr-consultancy.html            ← CSR project consultancy + past projects
 statistical-consultancy.html    ← statistical consultancy services
 assets/css/style.css            ← shared styles (blue theme)
-assets/img/prabhat-mittal.png   ← portrait
-assets/docs/Prabhat-Mittal-CV.pdf
+assets/img/prabhat-mittal.jpg   ← portrait (same photo as the call-for-chapters site)
+assets/img/community-engagement-book-cover.jpg
+assets/docs/Prabhat-Mittal-Complete-Profile.pdf ← full profile PDF (replace with your own upload)
 .nojekyll
 ```
 
@@ -33,4 +34,9 @@ links to it; nothing in that repository is changed by this one.
 ## Updating content
 
 * Publications, projects and services are plain HTML lists — edit the relevant file directly.
-* The CV PDF is a copy of the DU profile file; replace `assets/docs/Prabhat-Mittal-CV.pdf` when it is updated.
+* One PDF is offered for download: the **complete profile**. Replace
+  `assets/docs/Prabhat-Mittal-Complete-Profile.pdf` with the LaTeX-built CV whenever it is updated; keep the
+  filename and every link on the site keeps working. The Profile write-up on the home page serves as the short CV.
+* Scopus metrics appear in the Profile section of `index.html` and at the top of `publications.html`. They are
+  plain numbers in the HTML — search for `Scopus Research Metrics`, copy the current figures from
+  <https://qtanalytics.in/scopus-search/author/12782839900> and update the "as on" date.
